@@ -1,0 +1,6 @@
+opencv-python
+face-recognition
+pickle 
+numpy
+pymongo
+datetime
