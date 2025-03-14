@@ -4,7 +4,7 @@ import pickle
 import os
 from pymongo import MongoClient
 # MongoDB Initialization
-client = MongoClient('mongodb+srv://jithindandyala:jithin2030@cluster0.ywkjq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')  # For local MongoDB
+client = MongoClient('mongourl')  # For local MongoDB
 # client = MongoClient('your_mongo_atlas_connection_string')  # For MongoDB Atlas
 db_mongo = client['FaceRecognitionDB']
 collection = db_mongo['FaceEncodings']
