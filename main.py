@@ -7,7 +7,7 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta
 
 # MongoDB connection
-client = MongoClient('mongodb+srv://jithindandyala:jithin2030@cluster0.ywkjq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('mongourl')
 db = client['FaceRecognitionDB']
 collection = db['FaceLogs']
 
